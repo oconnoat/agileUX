@@ -3,7 +3,7 @@
 
 Released under the MIT and GPL (version 2 or later) Licenses.
 
-Note, this is a total mess of inconsistent css, html, javascript and content. 
+Note, this is a total mess of inconsistent css, html, javascript and content.
 It's probably a good example of how difficult it is for me to separate content with presentation in practice.
 -->
 
@@ -52,18 +52,20 @@ href="http://fonts.googleapis.com/css?family=Roboto+Condensed|Comfortaa">
 
     <!-- each slide must be a div with class step,  must have some co-ordinates -->
     <div id="title" class="step" data-x="0" data-y="0" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1">
-        <h1>Agile UX</h1> 
+        <h1>Agile UX</h1>
+        <div class="footer"><img src="img/adapt.png" /><img src="img/dcu.jpg" /></div>
         <p><i class="fa fa-twitter fa-large"></i>@<a
             href="https://www.twitter.com/uberalex">uberalex</a></p>
-        <div class="footer"><img src="img/adapt.png" /><img src="img/dcu.png" /></div>
-        <div class="notes">
+        <p><i class="fa fa-envelope fa-large"></i>
+        Alexander.OConnor@dcu.ie</a></p>
+                <div class="notes">
             <!--speaker notes-->
             <p></p>
         </div>
     </div>
     <!-- Introduction -->
     <div id="AgileVsUser" class="step" data-x="1200" data-y="0" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1">
-        <h1>Developers and Users can be friends</h1> 
+        <h1 class="middle">Developers and Users can be friends</h1>
         <div class="notes">
             <!--speaker notes-->
             <p>Delivering <strong>valuable</strong> software.</p>
@@ -71,7 +73,7 @@ href="http://fonts.googleapis.com/css?family=Roboto+Condensed|Comfortaa">
     </div>
     <div id="AgileVsUser2" class="step" data-x="1200" data-y="0"
         data-z="-1200" data-rotate-x="0" data-rotate-y="90" data-rotate-z="0" data-scale="1">
-        <h1>Design Thinking isn't just for Designers</h1> 
+        <h1 class="middle">Design Thinking isn't just for Designers</h1>
         <div class="notes">
             <!--speaker notes-->
             <p>Eschewing Specialisation.</p>
@@ -79,7 +81,7 @@ href="http://fonts.googleapis.com/css?family=Roboto+Condensed|Comfortaa">
     </div>
     <div id="AgileVsUser3" class="step" data-x="1200" data-y="0"
         data-z="-1200" data-rotate-x="0" data-rotate-y="180" data-rotate-z="0" data-scale="1">
-        <h1>Design doesn't just happen before the Sprints</h1> 
+        <h1 class="middle">Design doesn't just happen before the Sprints</h1>
         <div class="notes">
             <!--speaker notes-->
             <p>Too often User Experience becomes a late requirement.</p>
@@ -91,7 +93,7 @@ href="http://fonts.googleapis.com/css?family=Roboto+Condensed|Comfortaa">
             <li>New Feature design</li>
             <li>Acceptability</li>
             <li>Effectiveness</li>
-        </ol> 
+        </ol>
         <div class="notes">
             <!--speaker notes-->
             <p>We want to ask three types of user research question.
@@ -110,17 +112,12 @@ href="http://fonts.googleapis.com/css?family=Roboto+Condensed|Comfortaa">
         </ol>
         <div class="notes">
             <!--speaker notes-->
-            <a
-                href="http://www.theatlantic.com/daily-dish/archive/2010/10/western-educated-industrialized-rich-and-democratic/181667/">WEIRD
-                Users?</a>
+            <a href="http://www.theatlantic.com/daily-dish/archive/2010/10/western-educated-industrialized-rich-and-democratic/181667/">WEIRD Users?</a>
         </div>
     </div>
-
-
     <!-- The Kinds of User Research Task -->
 
     <div id="NewFeatures" class="step" data-x="3600" data-y="0" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1">
-        <h1>New Features</h1> 
         <div class="notes">
             <!--speaker notes-->
             <p>There are two key things to try and deal with in eliciting new
@@ -147,7 +144,7 @@ href="http://fonts.googleapis.com/css?family=Roboto+Condensed|Comfortaa">
         </div>
     </div>
     <div id="Usability" class="step" data-x="4800" data-y="0" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1">
-        <h1>Acceptability</h1> 
+        <h1>Acceptability</h1>
         <img src="img/throbber.gif" />
         <div class="notes">
             <!--speaker notes-->
@@ -168,19 +165,18 @@ href="http://fonts.googleapis.com/css?family=Roboto+Condensed|Comfortaa">
         data-z="2400" data-rotate-x="0" data-rotate-y="90" data-rotate-z="0" data-scale="1">
         <img src="img/crowd.jpg" />
         <div class="notes">List of Remote usability tools <a href="http://remoteresear.ch/tools/"></a></div>
-    </div> 
+    </div>
 
     <div id="ContinuousTesting" class="step" data-x="6000" data-y="0" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1">
         <img class="floatleft" src="img/split.png" />
         <img class="floatright" src="img/abtest.png" />
+        <br /><h1><i class="fa fa-exclamation-triangle fa-large">Proceed with Caution!</h1>
         <div class="notes">
-            <a
-                href="http://www.evanmiller.org/how-not-to-run-an-ab-test.html">http://www.evanmiller.org/how-not-to-run-an-ab-test.html</a><br
-            /><a
-                href="http://www.peakconversion.com/2012/02/ab-split-test-graphical-calculator/">http://www.peakconversion.com/2012/02/ab-split-test-graphical-calculator/</a>
+            <a href="http://www.evanmiller.org/how-not-to-run-an-ab-test.html">http://www.evanmiller.org/how-not-to-run-an-ab-test.html</a><br />
+            <a href="http://www.peakconversion.com/2012/02/ab-split-test-graphical-calculator/">http://www.peakconversion.com/2012/02/ab-split-test-graphical-calculator/</a>
         </div>
     </div>
-    <!-- Using this --> 
+    <!-- Using this -->
 
     <div id="Personas" class="step" data-x="8000" data-y="0" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1">
         <img src="img/personas.jpg" />
@@ -250,7 +246,7 @@ if ("ontouchstart" in document.documentElement) {
 
 <!-- Initialisation -->
 <script>impress().init();</script>
-<script>var time = 1000 * 60 * 15;
+<script>var time = 1000 * 60 * 20;
 var clock = timer(time, update);
 </script>
 </body>

@@ -4,13 +4,13 @@
  *
  *
  *
- * An example block below 
+ * An example block below
  * @font-face {
  * font-family: 'Satisfy';
  *  font-style: normal;
  *  font-weight: 400;
  *  src: local('Satisfy') url(http://themes.googleusercontent.com/static/fonts/satisfy/v4/tmRzDlQs5wZmOn9mIuLa-QLUuEpTyoUstqEm5AMlJo4.woff) format('woff'),
- *  local('Satisfy') url('Satisfy.woff') format('woff'); 
+ *  local('Satisfy') url('Satisfy.woff') format('woff');
  * }
  *
  *
@@ -55,6 +55,11 @@ li {
 h1 {
     font-family: 'Comfortaa';
 }
+h1.middle {
+    background: rgba(255,255,255,0.66);
+    text-align: center;
+    margin-top: 33%;
+}
 /* Impress-related markup */
 .impress-enabled .step.active {
     background-color: #fff;:
@@ -76,15 +81,32 @@ h1 {
 
 }
 .impress-on-title div.hint{
-   display: block;
-   font-size: 14px;
-   font-style: italic;
-   text-align: center;
-   width: 250px;
-   position: absolute;
-   left: 50%;
-   margin-left: -125px;
+    display: block;
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
+    width: 250px;
+    position: absolute;
+    left: 50%;
+    margin-left: -125px;
 }
+
+.impress-on-AgileVsUser {
+    background-image: url('../img/friends.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.impress-on-AgileVsUser2 {
+    background-image: url('../img/designer.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.impress-on-AgileVsUser3 {
+    background-image: url('../img/sprint.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .impress-on-WhoAreThey {
     background-image: url('../img/blind.jpg');
     background-repeat: no-repeat;
@@ -105,6 +127,14 @@ h1 {
 }
 
 /* specific divs */
+div#title {
+    text-align: center;
+}
+div#title img{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    max-height: 120px;
+}
 div#title h1{
     text-align: center;
     margin: 10px;
@@ -114,7 +144,25 @@ div#title h1{
 
 div#DesignThinking {
     background: none;
-
+}
+div#NewFeatures {
+    background-image: url('../img/features.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div#ThreeKinds {
+    background-image: url('../img/bricks.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div#ThreeKinds ol{
+    font-size: 64px;
+    color: #ffffff;
+    margin-top: 25%;
+    margin-left: 10%;
+}
+div#AgileVsUser, div#AgileVsUser2, div#AgileVsUser3{
+    background: none;
 }
 div#DesignThinking ol{
     background: hotpink;
@@ -123,6 +171,13 @@ div#DesignThinking ol{
 div#WhoAreThey ol{
     background-color: rgba(222,222,255,0.66);
     margin-top: 20%;
+}
+
+div#ContinuousTesting h1{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 15%;
 }
 div#overview {
     display: none;
