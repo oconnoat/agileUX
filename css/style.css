@@ -26,6 +26,9 @@ div.hint {
     display: none;
 }
 /* Tag Markup */
+body {
+    font-family: 'Roboto Condensed';
+}
 div.step{
     min-width: 900px;
     min-height: 700px;
@@ -48,6 +51,9 @@ ol {
 }
 li {
     margin-bottom: 2%;
+}
+h1 {
+    font-family: 'Comfortaa';
 }
 /* Impress-related markup */
 .impress-enabled .step.active {
@@ -103,8 +109,9 @@ div#title h1{
     text-align: center;
     margin: 10px;
     font-size: 128px;
-    font-family: 'Tangerine', sans-serif;
+    font-family: 'Comfortaa', sans-serif;
 }
+
 div#DesignThinking {
     background: none;
 
