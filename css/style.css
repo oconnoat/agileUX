@@ -30,13 +30,25 @@ div.step{
     min-width: 900px;
     min-height: 700px;
     font-size: 48px;
-    border: 1px solid red;
 }
 
 img {
     max-height: 700px;
 }
-
+img.floatleft {
+    float: left;
+    width: 45%;
+}
+img.floatright {
+    float: right;
+    width: 45%;
+}
+ol {
+    list-style: decimal inside;
+}
+li {
+    margin-bottom: 2%;
+}
 /* Impress-related markup */
 .impress-enabled .step.active {
     background-color: #fff;:
@@ -67,19 +79,44 @@ img {
    left: 50%;
    margin-left: -125px;
 }
+.impress-on-WhoAreThey {
+    background-image: url('../img/blind.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.impress-on-DesignThinking{
+    background-image: url('../img/doughnut.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.impress-on-WhoAreThey #WhoAreThey{
+    background: none;
+}
 .impress-on-overview div:hover{
     opacity: 1;
     background-color: #fff;
+    border: 1px solid red;
 }
 
 /* specific divs */
 div#title h1{
     text-align: center;
     margin: 10px;
-    font-size: 256px;
+    font-size: 128px;
     font-family: 'Tangerine', sans-serif;
 }
+div#DesignThinking {
+    background: none;
 
+}
+div#DesignThinking ol{
+    background: hotpink;
+    margin-top: 25%;
+}
+div#WhoAreThey ol{
+    background-color: rgba(222,222,255,0.66);
+    margin-top: 20%;
+}
 div#overview {
     display: none;
 }
