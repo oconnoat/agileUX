@@ -1,0 +1,243 @@
+<!doctype html>
+<!-- Based on impress.js Copyright 2011-2012 Bartek Szopka
+
+Released under the MIT and GPL (version 2 or later) Licenses.
+
+Note, this is a total mess of inconsistent css, html, javascript and content. 
+It's probably a good example of how difficult it is for me to separate content with presentation in practice.
+-->
+
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=1024" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<title> </title>
+
+<meta name="description" content="" />
+<meta name="author" content="" />
+
+<link rel="stylesheet" type="text/css" href="css/reset.css" />
+
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+
+<link rel="stylesheet" href="lib/fontawesome/css/font-awesome.min.css">
+<!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"> -->
+<!-- basic setup -->
+<!-- <link rel="stylesheet" type="text/css" href="css/base.css" /> -->
+<!-- menus and buttons -->
+<link rel="stylesheet" type="text/css" href="css/navmenu.css" />
+
+<!-- presentation-specific styling, which might be done with less instead of css -->
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<!-- <link rel="stylesheet/less" type="text/css" href="less/style.less"> -->
+
+
+<link rel="shortcut icon" href="img/favicon.png" />
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+</head>
+
+<body class="impress-not-supported">
+
+<!--
+    For example this fallback message is only visible when there is `impress-not-supported` class on body.
+-->
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress">
+
+    <!-- each slide must be a div with class step,  must have some co-ordinates -->
+    <div id="title" class="step" data-x="0" data-y="0" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1">
+        <h1>Agile UX</h1> 
+        <p><i class="fa fa-twitter fa-large"></i>@<a
+            href="https://www.twitter.com/uberalex">uberalex</a></p>
+        <div class="footer"><img src="img/adapt.png" /><img src="img/dcu.png" /></div>
+        <div class="notes">
+            <!--speaker notes-->
+            <p></p>
+        </div>
+    </div>
+    <!-- Introduction -->
+    <div id="AgileVsUser" class="step" data-x="1200" data-y="0" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1">
+        <h1>Developers and Users can be friends</h1> 
+        <div class="notes">
+            <!--speaker notes-->
+            <p>Delivering <strong>valuable</strong> software.</p>
+        </div>
+    </div>
+    <div id="AgileVsUser2" class="step" data-x="1200" data-y="0"
+        data-z="-1200" data-rotate-x="0" data-rotate-y="90" data-rotate-z="0" data-scale="1">
+        <h1>Design Thinking isn't just for Designers</h1> 
+        <div class="notes">
+            <!--speaker notes-->
+            <p>Eschewing Specialisation.</p>
+        </div>
+    </div>
+    <div id="AgileVsUser3" class="step" data-x="1200" data-y="0"
+        data-z="-1200" data-rotate-x="0" data-rotate-y="180" data-rotate-z="0" data-scale="1">
+        <h1>Design doesn't just happen before the Sprints</h1> 
+        <div class="notes">
+            <!--speaker notes-->
+            <p>Too often User Experience becomes a late requirement.</p>
+        </div>
+    </div>
+    <!-- The Kinds of UX we want to do -->
+    <div id="ThreeKinds" class="step" data-x="1200" data-y="1200" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1">
+        <ol>
+            <li>New Feature design</li>
+            <li>Acceptability</li>
+            <li>Effectiveness</li>
+        </ol> 
+        <div class="notes">
+            <!--speaker notes-->
+            <p>We want to ask three types of user research question.
+            How should a feature work? Does the design make sense? Does it work
+            in practice?</p>
+        </div>
+    </div>
+
+    <!-- About the User -->
+    <div id="WhoAreThey" class="step" data-x="2400" data-y="1200" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1">
+        <ol>
+            <li>You are not your users</li>
+            <li>Your customer might not be your user</li>
+            <li>Your user might not know what they want</li>
+            <li>The world is a big place</li>
+        </ol>
+        <div class="notes">
+            <!--speaker notes-->
+            <a
+                href="http://www.theatlantic.com/daily-dish/archive/2010/10/western-educated-industrialized-rich-and-democratic/181667/">WEIRD
+                Users?</a>
+        </div>
+    </div>
+
+
+    <!-- The Kinds of User Research Task -->
+
+    <div id="NewFeatures" class="step" data-x="3600" data-y="0" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1">
+        <h1>New Features</h1> 
+        <div class="notes">
+            <!--speaker notes-->
+            <p>There are two key things to try and deal with in eliciting new
+            features from users. The first question is what's the problem, and
+            the second is how to solve it?</p>
+        </div>
+    </div>
+    <div id="DesignWorkshops" class="step" data-x="3600" data-y="0"
+        data-z="-1200" data-rotate-x="0" data-rotate-y="90" data-rotate-z="0" data-scale="1">
+        <img src="img/participatory.jpg" />
+        <div class="notes">
+            <!--speaker notes-->
+            <p><a href="http://alistapart.com/article/paperprototyping">https://www.wickedproblems.com/4_participatory_design.php</a></p>
+        </div>
+    </div>
+    <div id="PaperPrototypes" class="step" data-x="3600" data-y="-1200"
+        data-z="-1200" data-rotate-x="0" data-rotate-y="180" data-rotate-z="0" data-scale="1">
+        <img src="img/paper.jpg">
+        <div class="notes">
+            <!--speaker notes-->
+            <p><a href="http://alistapart.com/article/paperprototyping">
+                http://alistapart.com/article/paperprototyping</a></p>
+
+        </div>
+    </div>
+    <div id="Usability" class="step" data-x="4800" data-y="0" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1">
+        <h1>Acceptability</h1> 
+        <img src="img/throbber.gif" />
+        <div class="notes">
+            <!--speaker notes-->
+            <p>Does the interface work, as an interface? Is there annoying lag,
+            etc?</p>
+        </div>
+    </div>
+
+    <div id="GuerillaUsability" class="step" data-x="4800" data-y="0"
+        data-z="-1200" data-rotate-x="0" data-rotate-y="90" data-rotate-z="0" data-scale="1">
+        <img src="img/rocketsurgery.jpg" />
+        <img src="img/think.jpg" />
+        <div class="notes">Advanced common sense doesn't have to be expensive.
+            <a href="https://www.sensible.com/">https://www.sensible.com/</a>
+        </div>
+    </div>
+    <div id="RemoteUsability" class="step" data-x="4800" data-y="1200"
+        data-z="2400" data-rotate-x="0" data-rotate-y="90" data-rotate-z="0" data-scale="1">
+        <img src="img/crowd.jpg" />
+        <div class="notes">List of Remote usability tools <a href="http://remoteresear.ch/tools/"></a></div>
+    </div> 
+
+    <div id="ContinuousTesting" class="step" data-x="6000" data-y="0" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1">
+        <img src="img/split.png" />
+        <div class="notes">
+            <a href="http://www.evanmiller.org/how-not-to-run-an-ab-test.html">http://www.evanmiller.org/how-not-to-run-an-ab-test.html</a>
+        </div>
+    </div>
+    <!-- Using this --> 
+
+    <div id="Personas" class="step" data-x="7200" data-y="0" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1">
+        <img src="img/personas.jpg" />
+    </div>
+    <div id="DesignThinking" class="step" data-x="8400" data-y="0" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1">
+    </div>
+    <!-- Conclusion -->
+    <div id="Conclusion" class="step" data-x="0" data-y="1200" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="1">
+        <img src="img/advice.jpg" />
+        <div class="notes">
+            <!--speaker notes-->
+        </div>
+    </div>
+    <!-- keep an overview slide, you may wish to change the scaling and / or the co-ordinates -->
+    <div id="overview" class="step" data-x="600" data-y="0" data-z="0" data-rotate-x="0" data-rotate-y="0" data-rotate-z="0" data-scale="2">
+    </div>
+
+</div>
+<!-- end of impress -->
+
+<!-- a bar at the top with a timer. You could put other text or info in here by adding more spans -->
+<div id="navbar"><div id="timebar">&nbsp;</div><p> <span id="timer">Click to Start Timer.</span></p><p><input id="notebox" type="checkbox" /><label for="notebox">show notes</label></p></div>
+
+<!-- a little menu based on the slides -->
+<div class="hint note">
+    <p>Use the spacebar or arrow keys to navigate</p>
+</div>
+
+<!-- clicking on this reveals the quick-navigation bar -->
+<div id="menubutton" tabindex="1">
+    <i class="fa fa-bars fa-lg"></i>
+</div>
+
+<!-- quickly get to different slides here, the list is populated from the IDs of the slides -->
+<div id="navmenu">
+</div>
+
+
+
+<script>
+if ("ontouchstart" in document.documentElement) {
+    document.querySelector(".hint").append('p').text('Tap on the left or right to navigate');
+}
+</script>
+
+<!-- LESS CSS -->
+<script src="lib/less.js/dist/less-1.7.5.js"></script>
+<!-- Load the presentation tool -->
+<script src="lib/impress.js/js/impress.js"></script>
+<!-- Load D3 -->
+<script src="lib/d3/d3.min.js"></script>
+<!-- Load the timer -->
+<script src="js/timer.js"></script>
+<!-- Menu -->
+<script src="js/navmenu.js"></script>
+<!-- -->
+<script src="js/diagram.js"></script>
+
+<!-- Initialisation -->
+<script>impress().init();</script>
+<script>var time = 1000 * 60 * 15;
+var clock = timer(time, update);
+</script>
+</body>
+</html>
